@@ -22,7 +22,7 @@ const Footer = () => {
             <span className="text-lg font-semibold">SbmMaster</span>
           </div>
           <p className="mb-4">
-            At EduMaster, we understand every learner is unique. Our curriculum adapts to your needs and helps you grow!
+            At SbmMaster, we understand every learner is unique. Our curriculum adapts to your needs and helps you grow!
           </p>
           <div className="flex gap-3 mb-4">
             <img
@@ -38,11 +38,21 @@ const Footer = () => {
           </div>
           <p className="font-semibold">Let’s get social :</p>
           <div className="flex gap-3 mt-2 text-xl text-blue-600">
-            <FaFacebook />
-            <FaInstagram />
-            <FaYoutube />
-            <FaLinkedin />
-            <FaTelegram />
+           <div className="flex gap-4 text-2xl">
+          <a href="https://www.linkedin.com/in/chitranjan-kumar-911219339/" target="_blank" rel="noopener noreferrer">
+           <FaLinkedin />
+          </a>
+          <a href="https://github.com/developer-maurya" target="_blank" rel="noopener noreferrer">
+           <FaGithub />
+          </a>
+          <a href="https://www.instagram.com/chitranjanmaurya123/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+           </a>
+          <a href="https://www.youtube.com/@chitranjanmotivation931" target="_blank" rel="noopener noreferrer">
+          <FaYoutube />
+          </a>
+</div>
+
           </div>
         </div>
 
