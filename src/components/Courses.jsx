@@ -156,7 +156,7 @@ const Courses = () => {
       key: "rzp_test_1DP5mmOlF5G5ag", // Replace with your test/live key
       amount: parseInt(selectedCourse.price.replace("₹", "")) * 100,
       currency: "INR",
-      name: "MyEdu Courses",
+      name: "Sbm Courses",
       description: selectedCourse.title,
       handler: function () {
         navigate("/my-courses", {
